@@ -1,0 +1,75 @@
+.cat-title{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 32px;
+}  
+.soccer-twin{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+} 
+.soccer-single{
+    position: relative;
+}
+.soccer-single img{
+    width: 690px;
+    aspect-ratio: 1/1;
+    background: linear-gradient(to top, #d6d6d6, #ffffff);
+}
+.cat-info{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: #ffffff;
+}
+.cat-name{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.cat-discreption{
+    font-size: 28px;
+    font-family: "InterThin"!important;
+}
+.cat-name-bas{
+    font-size: 40px;
+}
+.soccer-single .tranding{
+    width: 460px;
+    aspect-ratio: 1/1;
+}
+.cat-name-trand{
+    font-size: 25px;
+}
+.arrivals-wrapper{
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/staging/0ee9878bf716ae1ba3662cbc22c2b7a6157295de-1440x500.jpg?w=2160&q=80&auto=format");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 516px;
+}
+.arrivals-title{
+    font-size: 40px;
+}
+.arrivals-text{
+    font-size: 25px;
+    font-family: "InterThin"!important;
+}
+.arrivals-options{
+    display: flex;
+    gap: 10px;
+}
+.arrivals-options a{
+    color: #ffffff;
+    background-color: #000;
+    padding: 10px 20px;
+}
+.arrivals{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    height: 100%;
+}
+.cat-wrapper{
+    margin-bottom: 70px;
+}

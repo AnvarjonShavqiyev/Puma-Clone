@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Inter";
+    src: url('./assets/fonts/FFDINforPumaW07-Bold-latin.woff2');
+}
+@font-face {
+    font-family: "InterThin";
+    src: url('./assets/fonts/FFDINforPumaW07-Regular-latin.woff2');
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --ff-inter:  "Inter", sans-serif;
+    list-style-type: none;
+}
+
+:root{
+    --ff-inter:  "Inter", sans-serif;
+    --ff-thin: "InterThin", sans-serif;
+}
+  
+*{
+  font-family: var(--ff-inter) !important;
+}
+  
+  a{
+    text-decoration: none;
+    color: var(--pd-color);
+  }
+

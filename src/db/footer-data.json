@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Support",
+        "subLinks" : ["Contact Us", "Shipping and Dilevery", "Terms & Conditions", "Transparency in Supply Chain", "Store Locator", "Buy a Gift Card", "Service Discount", "Refer a Friend", "Cookie Settings"]
+    },
+    {
+        "title" : "FAQ",
+        "subLinks" : ["Return Policy", "Privacy Policy", "Do Not Sale or Share My Information", "PUMA NYC Flagship Store", "Gift Card Balance", "Student Discount", "Promotion Exclusions"]
+    },
+    {
+        "title" : "About",
+        "subLinks" : ["Company", "Corporate News", "Press Center", "#REFORM", "Investors", "Sustainability", "Careers"]
+    }
+]

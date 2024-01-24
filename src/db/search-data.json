@@ -1,0 +1,51 @@
+{
+    "trandings" : {
+        "title" : "TRENDING SEARCHES",
+        "sublinks" : ["Lamelo Basketball Shoes", "Bmw", "Ferrari", "Morocco", "All Pro Nitro", "Manchester City"]
+    },
+    "searchProducts" : {
+        "title" : "SUGGESTED PRODUCTS",
+        "products" : [
+            {
+                "image" : "../src/assets/images/nike1.png",
+                "name" : "MELO x DEXTER'S LAB MB.03 Men's Basketball Shoes",
+                "price" : 135.00
+            },
+            {
+                "image" : "../src/assets/images/nike2.png",
+                "name" : "FENTY x PUMA Creeper Phatty Men's Sneakers",
+                "price" : 140.00
+            },
+            {
+                "image" : "../src/assets/images/nike3.png",
+                "name" : "PUMA x LAMELO BALL MB.03 LaFrance Men's Basketball Shoes",
+                "price" : 125.00
+            },
+            {
+                "image" : "../src/assets/images/nike4.png",
+                "name" : "FUTURE 7 ULTIMATE FG/AG Men's Soccer Cleats",
+                "price" : 240.00
+            },
+            {
+                "image" : "../src/assets/images/nike5.png",
+                "name" : "PUMA x LAMELO BALL MB.03 Toxic Men's Basketball Shoes",
+                "price" : 125.00
+            },
+            {
+                "image" : "../src/assets/images/nike6.png",
+                "name" : "Palermo Women's Leather Sneakers",
+                "price" : 90.00
+            },
+            {
+                "image" : "../src/assets/images/nike7.png",
+                "name" : "PUMA x LAMELO BALL MB.03 Chino Hills Basketball Shoes",
+                "price" : 125.00
+            },
+            {
+                "image" : "../src/assets/images/nike8.png",
+                "name" : "PUMA x STAPLE Men's Slipstream Sneakers",
+                "price" : 100.00
+            }
+        ]
+    } 
+}

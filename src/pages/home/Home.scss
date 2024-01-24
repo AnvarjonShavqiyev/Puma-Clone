@@ -1,0 +1,49 @@
+.feedback{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    z-index: 1;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    transform: rotate(180deg);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.feedback-btn{
+    border: none;
+    background-color: transparent;
+}
+.discount{
+    display: block;
+    position: sticky;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    padding: 0 0 50px 30px;
+}
+.discount button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 2px solid #000;
+}
+.discount button:hover{
+    background-color: #b5b4b42e;
+    cursor: pointer;
+}
+.close-icon{
+    font-size: 20px;
+}
+.none{
+    display: none;
+}
