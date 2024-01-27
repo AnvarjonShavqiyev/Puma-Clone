@@ -8,7 +8,6 @@ import { Container } from '../../utils/Utils';
 import navData from '../../db/nav-data.json';
 import './SecondNav.scss';
 const SecondNav = ({setSearchActive} : {setSearchActive: React.Dispatch<React.SetStateAction<boolean>>}) => {
-  console.log(navData);
   return (
     <div className='second-nav-wrapper'>
       <Container>
@@ -47,7 +46,7 @@ const SecondNav = ({setSearchActive} : {setSearchActive: React.Dispatch<React.Se
             <button className='second-nav-searchBtn' onClick={() => setSearchActive(true)}><FiSearch className='search-icon'/>SEARCH</button>
             </div>
             <IconButton aria-label="delete">
-              <FaRegHeart className='icon'/>
+              <Link to='/wishlist'><FaRegHeart className='icon'/></Link>
             </IconButton>
             <IconButton aria-label="delete">
               <IoCartOutline className='icon'/>

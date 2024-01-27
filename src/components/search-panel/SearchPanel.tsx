@@ -6,6 +6,7 @@ import { Container } from "../../utils/Utils";
 import searchData from '../../db/search-data.json'
 import { Link } from "react-router-dom";
 const SearchPanel = ({ isSearchActive, setSearchActive } : {isSearchActive: boolean, setSearchActive: React.Dispatch<React.SetStateAction<boolean>>}) => {
+  console.log(isSearchActive + '...'); 
   return (
       <div className={`search-panel-wrapper ${isSearchActive ? 'active' : ''}`}>
             <Container>

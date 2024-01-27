@@ -1,0 +1,195 @@
+.discount-announce{
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/staging/5b9f84ca8213f2f91f587b44192b26131d378076-1440x350.jpg?w=2160&q=80&auto=format");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.discount-text{
+    font-size: 22px;
+}
+.discount-text:nth-child(2){
+    font-size: 18px;
+}
+.discount-link{
+    position: relative;
+}
+.discount-link::after{
+    font-size: 16px;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+.discount-link-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.auth__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth-title{
+    font-size: 48px;
+    text-align: left;
+}
+.auth__header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.auth__header::after{
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    background-color: #a5a5a583;
+}
+.auth-action-title{
+    width: 50%;
+    text-align: center;
+}
+.auth-action-title{
+    font-size: 20px;
+    color: #000;
+    font-family: "InterThin" !important;
+}
+.active{
+    position: relative;
+    font-family: "Inter" !important;
+}
+.active::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: '';
+    height: 1.5px;
+    width: 250px;
+    background-color:#8a7350;
+}
+.auth-form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+.auth-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth-wrapper{
+    padding: 50px 0;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.auth-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.auth-input{
+    width: 100%;
+    height: 56px;
+    text-indent: 10px;
+}
+.auth-input::placeholder{
+    font-family: 'InterThin' !important;
+    font-size: 16px;
+}
+.red{
+    color: red;
+}
+.auth-label{
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+}
+.auth-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.checkbox-input{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #6a6969;
+}
+.checkbox-input:checked{
+    background-color: #000;
+    border: 2px solid #000;
+    background-image: url('../../assets/images/checked.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.auth-checkbox p{
+    font-family: 'InterThin'!important;
+}
+.auth-submitBtn{
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: rgb(189,193,197);
+    font-size: 20px;
+    border-radius: 2px;
+    color: rgb(59,64,71);
+}
+.auth-text{
+    font-family: 'InterThin'!important;
+    font-size: 14px;
+    a{
+        font-family: 'InterThin'!important;
+        font-size: 14px;
+        position: relative;
+    }
+    a::after{
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1.5px;
+        background-color: #888888;
+    }
+    a:hover::after{
+        background-color: #8a7350;
+    }
+}
+.f-password{
+    font-size: 16px;
+    position: relative;
+    width: max-content;
+}
+.f-password::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    height: 1.5px;
+    background-color: #888;
+    width: 100%;
+}
+.f-password:hover::after{
+    background-color: #000;
+}

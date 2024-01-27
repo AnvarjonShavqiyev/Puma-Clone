@@ -8,9 +8,11 @@ import { IoMdClose } from "react-icons/io";
 import Categories from '../../components/cateries/Categories'
 import { BiMessageSquareDetail } from "react-icons/bi";
 import Footer from '../../components/footer/Footer'
-
-const Home:React.FC = () => {
-  const [isSearchActive, setSearchActive] = useState<boolean>(false);
+interface HomeProps {
+  isSearchActive: boolean;
+  setSearchActive: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const Home:React.FC<HomeProps> = ({ isSearchActive, setSearchActive}) => {
   const [discountState, setDiscountState] = useState<boolean>(true);
   function closeDiscount(){
     setDiscountState(!discountState);
