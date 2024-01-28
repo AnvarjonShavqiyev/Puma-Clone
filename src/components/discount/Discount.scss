@@ -1,0 +1,22 @@
+.discount{
+    display: block;
+    position: sticky;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    padding: 0 0 50px 30px;
+}
+.discount button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 2px solid #000;
+}
+.discount button:hover{
+    background-color: #b5b4b42e;
+    cursor: pointer;
+}

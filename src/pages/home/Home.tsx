@@ -1,22 +1,17 @@
-import { useState } from 'react'
 import Nav from '../../components/nav/Nav'
 import SearchPanel from '../../components/search-panel/SearchPanel'
 import SecondNav from '../../components/second-nav/SecondNav'
 import './Home.scss'
 import Hero from '../../components/hero/Hero'
-import { IoMdClose } from "react-icons/io";
 import Categories from '../../components/cateries/Categories'
-import { BiMessageSquareDetail } from "react-icons/bi";
 import Footer from '../../components/footer/Footer'
+import Feedback from '../../components/feedback/Feedback'
+import Discount from '../../components/discount/Discount'
 interface HomeProps {
   isSearchActive: boolean;
   setSearchActive: React.Dispatch<React.SetStateAction<boolean>>;
 }
 const Home:React.FC<HomeProps> = ({ isSearchActive, setSearchActive}) => {
-  const [discountState, setDiscountState] = useState<boolean>(true);
-  function closeDiscount(){
-    setDiscountState(!discountState);
-  }
   return (
     <div className='home'>
       <SearchPanel isSearchActive={isSearchActive} setSearchActive={setSearchActive}/>
@@ -24,13 +19,8 @@ const Home:React.FC<HomeProps> = ({ isSearchActive, setSearchActive}) => {
       <SecondNav setSearchActive={setSearchActive}/>
       <Hero/>
       <Categories/>
-      <div className='feedback'>
-        <BiMessageSquareDetail/>
-        <button className='feedback-btn'>FEEDBACK</button>
-      </div>
-      <div className={discountState ? 'discount' : 'none'}>
-        <button>GET 20% OFF <IoMdClose onClick={() => closeDiscount()} className='close-icon'/></button>
-      </div>
+      <Feedback/>
+      <Discount/>
       <Footer/>
     </div>
   )
