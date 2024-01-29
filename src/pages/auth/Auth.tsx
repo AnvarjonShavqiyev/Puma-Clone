@@ -3,9 +3,6 @@ import Nav from "../../components/nav/Nav"
 import SearchPanel from "../../components/search-panel/SearchPanel";
 import SecondNav from "../../components/second-nav/SecondNav"
 import './Auth.scss'
-import { BiMessageSquareDetail } from "react-icons/bi";
-import { useState } from "react";
-import { IoMdClose } from "react-icons/io";
 import Footer from "../../components/footer/Footer";
 import Discount from "../../components/discount/Discount";
 import Feedback from "../../components/feedback/Feedback";
