@@ -49,7 +49,7 @@ const SecondNav = ({setSearchActive} : {setSearchActive: React.Dispatch<React.Se
               <Link to='/wishlist'><FaRegHeart className='icon'/></Link>
             </IconButton>
             <IconButton aria-label="delete">
-              <IoCartOutline className='icon'/>
+              <Link to='/cart'><IoCartOutline className='icon'/></Link>
             </IconButton>
             <IconButton aria-label="delete">
               <FiUser className='icon'/>
