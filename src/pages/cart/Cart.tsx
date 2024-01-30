@@ -14,7 +14,11 @@ const Cart: React.FC<CartProps> = ({isSearchActive,setSearchActive}) => {
         <Nav/>
         <SecondNav setSearchActive={setSearchActive}/>
         <div className='cart-wrapper'>
-            
+            <div className="cart">
+                <div className="cart-none">
+                    
+                </div>
+            </div>
         </div>
         <Footer/>
     </>

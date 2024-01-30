@@ -12,7 +12,7 @@ const RouteController: React.FC = () => {
     <Routes>
       <Route path='/' element={<Home setSearchActive={setSearchActive} isSearchActive={isSearchActive} />} />
       <Route path='/auth/:action' element={<Auth isSearchActive={isSearchActive} setSearchActive={setSearchActive} />} />
-      <Route path='/wishlist' element={<Wishlist/>}/>
+      <Route path='/wishlist' element={<Wishlist isSearchActive={isSearchActive} setSearchActive={setSearchActive}/>}/>
       <Route path='/cart' element={<Cart isSearchActive={isSearchActive} setSearchActive={setSearchActive}/>}/>
     </Routes>
   );
