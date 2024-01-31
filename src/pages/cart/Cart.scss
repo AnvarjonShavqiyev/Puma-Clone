@@ -1,0 +1,84 @@
+.cart{
+    padding: 32px;
+    height: 517px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart-none{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cart-icon{
+    font-size: 130px;
+    color: rgb(218, 218, 218);
+}
+.cart-none-text{
+    font-size: 28px;
+}
+.cart-none-note{
+    font-size: 16px;
+    font-family: "InterThin"!important;
+}
+.cart-link{
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+}
+.cart-link::after{
+    position: absolute;
+    content: "";
+    bottom: 2px;
+    left: 0;
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+}
+.cart-cards{
+    display: flex;
+    margin-bottom: 32px;
+    gap: 50px;
+    padding: 10px;
+}
+.cart-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 40px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 12px;
+}
+.cart-card-icon{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.cart-card-info{
+    font-family: 'InterThin'!important;
+}
+.payment-types{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.visa-icon{
+    font-size: 50px;
+    color: blue;
+}
+.google-icon{
+    margin-left: -62px;
+}
+.payment-types-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+}
+.payment-types-title{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 24px 0;
+    font-family: 'InterThin'!important;
+}
