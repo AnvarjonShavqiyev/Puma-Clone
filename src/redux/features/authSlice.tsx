@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios, { AxiosResponse } from "axios";
+import { User } from "../../types/ElementTypes";
 
 
 const createUser = createAsyncThunk("auth/createUser", async(data:User) => {
